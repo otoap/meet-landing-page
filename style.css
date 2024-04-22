@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+header {
+    margin-top: 48px;
+}
+
+
+.top-section img {
+    width: 110%;
+    transform: translate(-4%);
+}
+
+
+/*main*/
+
+main {
+    width: 100%;
+    margin-top: 54px;
+}
