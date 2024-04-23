@@ -208,6 +208,8 @@ footer {
     background-image: url("./image/image-footer-mobile.jpg");
     font-family: "Red Hat Display", sans-serif;
     background-size: 100%;
+
+    width: 100%;
 }
 
 .content h2 {
@@ -249,4 +251,71 @@ footer {
     border-radius: 29px;
     background-color: #855fb1;
     
+}
+
+.content span {
+    color: #d9b8ff;
+}
+
+br {
+    display: none;
+}
+
+
+@media (min-width:768px) {
+    main {
+        margin-top: 66px;
+    }
+
+    .top-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-section div {
+        max-width: 450px;
+    }
+
+    .top-section img {
+        transform: translate(0%);
+    }
+
+    .top-section .buttons-div {
+        flex-direction: row;
+    }
+
+    .images-div {
+        display: flex;
+        gap: 11px;
+        justify-content: space-between;
+    }
+
+    .bottom-section img {
+        max-width: 23.8%;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    br {
+        display: block;
+    }
+
+    .text-div p {
+        max-width: 573px;
+    }
+
+    footer {
+        background-image: url("./image/image-footer-tablet.jpg");
+    }
+
+    .content h2 {
+        font-size: 40px;
+    }
+
+    .content p {
+        max-width: 573px;
+    }
 }
