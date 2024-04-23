@@ -233,8 +233,7 @@ footer {
 .overlay {
     max-width: 100%;
     max-height: 100%;
-    background-color: #4d96a9;
-    opacity: 0.9;
+    background-color: #4d96a9de
 }
 
 .content {
@@ -317,5 +316,90 @@ br {
 
     .content p {
         max-width: 573px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .top-section {
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .top-section img {
+        display: none;
+        max-width: 30%;
+    }
+
+    .top-section .desktop-hero {
+        display: inline-block;
+    }
+
+    .top-section div {
+        max-width: 525px;
+    }
+
+    .top-section .left {
+        transform: translateX(-10%);
+    }
+
+    .top-section .right {
+        transform: translateX(10%)
+    }
+
+    h1 {
+        font-size: 64px;
+        line-height: 64px;
+        margin-bottom: 34px;
+    }
+
+    .top-section p {
+        font-size: 18px;
+    }
+
+    .buttons-div {
+        margin-top: 32px;
+    }
+
+    .top-section .number-div {
+        margin-top: 110px;
+    }
+
+    .bottom-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .images-div {
+        gap: 30px;
+    }
+
+    .bottom-section img {
+        max-width: 22.8%;
+    }
+
+    .text-div p {
+        max-width: 467px
+    }
+
+    footer {
+        background-image: url("./image/image-footer.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .content {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 116px 165px;
+    }
+
+    .content h2, .content p {
+        text-align: start;
+    }
+
+    .content p {
+        max-width: 340px;
     }
 }
